@@ -1,0 +1,69 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.theme-showcase .navbar .container {
+  width: auto;
+}
+.navbar-header .navbar-brand {text-transform: uppercase;}
+.table a.table-link {
+	font-size: 1.125em;
+	color: #03a9f4;
+	text-decoration: none;
+}
+.table a.table-link:hover {
+	color: #2980b9;
+}
+.table a.table-link.danger {
+	color: #e84e40;
+}
+.table .img-thumbnail {
+	max-height: 200px;
+}
+
+.phongban-table {
+	box-shadow: 1px 1px 4px grey;
+}
+
+.btn-common {
+	padding:  0 10px;
+	background-color: transparent;
+	border: 1px solid black;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	border-radius: 5px;
+}
+
+.btn-common:hover {
+	border: 1px solid rgb(4, 194, 36);
+	color: rgb(4, 194, 36);
+}
+
+/* .btn-common svg {
+	color: rgb(53, 53, 53);
+} */
+
+.btn-common.btn-view:hover {
+	border: 1px solid rgb(163, 65, 175);
+	color: rgb(163, 65, 175);
+}
+
+.btn-common.btn-edit:hover {
+	border: 1px solid rgb(199, 139, 8);
+	color: rgb(199, 139, 8);
+}
+
+.btn-common.btn-delete:hover {
+	border: 1px solid rgb(230, 6, 6);
+	color: rgb(230, 6, 6);
+}
+
+.login-container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.login-container label {
+	width: 100px;
+}
